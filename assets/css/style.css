@@ -1,12 +1,12 @@
-/* body {
+body {
     background-image: url('');
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed;
     background-position: center;
-  } */ 
+  } 
 
   /* Top Banner Area */
-
+}
 .banner {
     height: calc(100vh + 88.88px);
     background-image: url("https://github.com/DevonMartens/pokemon-fight/blob/main/assets/images/pokemon.pg.png?raw=true");
@@ -15,26 +15,11 @@
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    /* background-position: center bottom; */
     background-color: black;
 }
 
-.banner-image2 {
-    position: absolute;
-    top: 0;
-    height: calc(100vh + 88.88px);
-    width: 100%;
-    background-image: url("");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    -webkit-transition: opacity 0.4s ease-in-out;
-    transition: opacity 0.4s ease-in-out;
-    opacity: 0.5;
-}
+
 
 .banner-title {
     position: absolute;
@@ -51,3 +36,11 @@
 .banner-title h1 {
     color:black;
 }
+.jumbotron {
+    margin: 4%;
+    /* background: yellow; */
+}
+
+#rules {
+     
+    }
