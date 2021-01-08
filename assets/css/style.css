@@ -1,12 +1,13 @@
 body {
-    background-image: url('');
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed;
-    background-position: center;
+    background-image: url('https://media2.giphy.com/media/W04QVzelTHsNW/giphy.gif?cid=ecf05e47zbtb4q4m2he8oaoabxte3iqngpaojleh4oaf5bq2&rid=giphy.gif');
+    background-size:contain;
+    height: 100%;
+    width: 100%;
+    padding-top: 66,64%; 
   } 
 
   /* Top Banner Area */
-}
+
 .banner {
     height: calc(100vh + 88.88px);
     background-image: url("https://github.com/DevonMartens/pokemon-fight/blob/main/assets/images/pokemon.pg.png?raw=true");
