@@ -1,6 +1,53 @@
-body {
-    background-image: url('w3css.gif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+/* body {
+    background-image: url('');
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed;
     background-position: center;
-  }
+  } */ 
+
+  /* Top Banner Area */
+
+.banner {
+    height: calc(100vh + 88.88px);
+    background-image: url("https://github.com/DevonMartens/pokemon-fight/blob/main/assets/images/pokemon.pg.png?raw=true");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: black;
+}
+
+.banner-image2 {
+    position: absolute;
+    top: 0;
+    height: calc(100vh + 88.88px);
+    width: 100%;
+    background-image: url("");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 0.5;
+}
+
+.banner-title {
+    position: absolute;
+    top: 25%;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-name {
+    color: rgb(242, 88, 88);
+}
+
+.banner-title h1 {
+    color:black;
+}
