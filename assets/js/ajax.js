@@ -3,6 +3,7 @@ var pokemonArray = [];
 //blank input for response
 var calledPokemon;
 var pokemonTeam = [];
+
 $("#search-btn").on("click", function () {
   event.preventDefault();
   var userInput = $("#input").val();
