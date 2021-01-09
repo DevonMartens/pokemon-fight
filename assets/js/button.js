@@ -4,6 +4,6 @@ $("#go").click(function() {
   });​
 
   $("#go").click(function() {
-  window.location.href="./assets/html/game"
+  window.location.href="./game"
 
   });​
