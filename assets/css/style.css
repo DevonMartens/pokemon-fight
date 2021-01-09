@@ -39,6 +39,8 @@ body {
 }
 .jumbotron {
     margin: 4%;
+    color: rgb(231,192,39);
+    background-color:#dc3446;
     /* background: yellow; */
 }
 
