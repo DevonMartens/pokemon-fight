@@ -1,41 +1,43 @@
+// $(document).ready(function() {
+// $("#search-btn").on("click", function () {
+//   // event.preventDefault();
+//   var userInput = $("#input").val();
 
-var g_currentpokemon;
-var userTeam = [];
-$("#search-btn").on("click", function () {
-  // event.preventDefault();
-  var userInput = $("#input").val();
+//   var search = userInput.toLowerCase();
+//   $("#input").val("");
+//   // var pokemon = userInput.toLower
+//   pokemonOne(search);
+ 
+//   });
 
-  var userInput = $("#input").val();
-  var queryURL = "https://pokeapi.co/api/v2/pokemon/" + userInput;
- $.ajax({
-    url: queryURL,
-    method: "GET",
-  }).then(function (response) {
-    g_currentpokemon = response;
-console.log(response);
-    var pokeID = response.id;
-    var imageURL =
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/" +
-      pokeID +
-      ".png";
-    var nameOfPokemon = response.name;
+//   function pokemonOne(search){
+//   var queryURL = "https://pokeapi.co/api/v2/pokemon/" + search;
+//  $.ajax({
+//     url: queryURL,
+//     method: "GET",
+//     dataType: "json",
+//   }).then(function (response) {
+//     var pokeID = response.id;
+//     var imageURL =
+//       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/" +
+//       pokeID +
+//       ".png";
+//     var nameOfPokemon = response.name;
 
-    nameOfPokemon = nameOfPokemon.charAt(0).toUpperCase() + nameOfPokemon.slice(1);
-
-    var type = response.types[0].type.name;
-    type = type.charAt(0).toUpperCase() + type.slice(1);
-
-    $("#pokemon1Image").html("<div><img src=" + imageURL + "></div>");
-    $("#pokemon1Name").text(nameOfPokemon);
-    $("#poketype").text(type + " type");
-
-    $("#pokemon1Attack").text("Attack stat: " + response.stats[1].base_stat);
-    $("#Pokemon1Defense").text("Defense stat: " + response.stats[2].base_stat);
-    $("#Pokemon1Speed").text("Speed stat: " + response.stats[5].base_stat);
-    $("#Pokemon1Exp").text(response.base_experience);
+//     $("#pokemon1Image").attr("src", imageURL);
+//     $("#pokemon1Name").html(nameOfPokemon);
+//     // $("#pokemon1Type").text(type + " type");
+// var attack =response.stats[1].base_stat
+//     // $("#pokemon1Attack").text(attack);
+//     // $("#pokemon1Defense").text(response.stats[2].base_stat);
+//     $("#pokemon1Speed").html(response.stats[5].base_stat);
+//     $("#pokemon1Exp").html(response.base_experience);
+//     $("#Ability").html(response.abilities.ability[0])
 
   
-  })
-});
+//   })
 
+// }
+// })
 
+  

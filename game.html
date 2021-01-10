@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Pokeman</title>
+    <title>Pokemon</title>
 <!-- Jquery Files-->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <link rel="stylesheet" href="./assets/css/game.css">
@@ -37,51 +37,54 @@
     <div class="row">
 
       <div class="col">
-        <figure class="card card--normal">
+        <figure class="card card--normal" id="firstResponse">
           <div class="card__image-container">
-            <img src="https://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/1200px-133Eevee.png" alt="Eevee" class="card__image">   
+            <img id="#pokemon1Image" src="" alt="card" class="card__image">   
           </div>
           
           <figcaption class="card__caption">
-            <h1 class="card__name">Eevee</h1>
+            <h1 id="pokemon1Name"></h1>
         
-            <h3 class="card__type">
-              normal
-            </h3>
+       
+              <h3 class="card__type" id="pokemon1Type"></h3>
+          
         
             <table class="card__stats">
               <tbody><tr>
                 <th>HP</th>
-                <td>55</td>
+  
+    <td id="Pokemon1Exp"></td>
               </tr>
               <tr>
                 <th>Attack</th>
-                <td>55</td>
+                <td id='pokemon1Attack'></td>
               </tr>
               
               <tr>
-                <th>Defense</th>
-                <td>50</td>
+                 <th>Defense</th>
+                <td id="pokemon1Defense"></td>
               </tr>
         
               <tr>
                 <th>Special Attack</th>
-                <td>45</td>
+                <td></td>
               </tr>
               <tr>
                 <th>Special Defense</th>
-                <td>65</td>
+ 
+    <td> <p id="results"></p></td>
               </tr>
               <tr>
                 <th>Speed</th>  
-                <td>55</td>
+                <td></td>
               </tr>
             </tbody></table>
             
             <div class="card__abilities">
               <h4 class="card__ability">
-                <span class="card__label">Ability</span>
-                Run Away
+                <span class="card__label"><p id="Ability"></p>Ability</span>
+            sp Ability
+            ]
               </h4>
               <h4 class="card__ability">
                 <span class="card__label">Hidden Ability</span>
@@ -102,8 +105,7 @@
      <div class="row">
 
       <div class="col">
-      
-      </div>
+       ]
       
       <div class="col">
       
